@@ -15,7 +15,7 @@ class Solution:
         res = []
         while len(res) < k:
             res.append(arr.pop()[1])
-            print(f"Current result: {res}")
+        return res
 
 if __name__ == "__main__":
     solution = Solution()
