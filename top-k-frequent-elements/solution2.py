@@ -14,6 +14,6 @@ if __name__ == "__main__":
     print(f"Top K Frequent Elements: {result}")  
 
 
-# time complexity: O(nlogn)
+# time complexity: O(n + n log k)
 # space complexity: O(n)
         
