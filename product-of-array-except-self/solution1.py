@@ -1,8 +1,7 @@
 from typing import List
 
-
 class Solution:
-    def product_except_self(self, nums):
+    def product_except_self(self, nums: List[int]) -> List[int]:
         
         res = []
         for i in range(len(nums)):
