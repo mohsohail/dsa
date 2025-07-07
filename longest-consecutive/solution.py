@@ -8,12 +8,11 @@ class Solution:
         for num in numSet:
             if (num - 1) not in numSet:
                 length = 1
-
                 while (num + length) in numSet:
                     length += 1
-                    longest = max(length, longest)
+                longest = max(length, longest)
         return longest
 
 if __name__ == "__main__":
     solution = Solution()
-    solution.longestConsecutive([100, 4, 200, 1, 3, 2])
+    print(solution.longestConsecutive([100, 4, 200, 1, 3, 2]))
